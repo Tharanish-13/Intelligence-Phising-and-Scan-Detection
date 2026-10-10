@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_BASE = import.meta.env.VITE_API_BASE_URL || '/api';
+const API_BASE = import.meta.env.'https://intelligence-phising-and-scan-detection.onrender.com' || '/api';
 
 const apiClient = axios.create({
   baseURL: API_BASE,
